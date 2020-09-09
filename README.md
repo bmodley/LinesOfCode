@@ -3,7 +3,7 @@
 In order to count the lines, I wrote a program that read in the files as txt documents and parsed the lines.
 I used a stream to feed them into the scanner and pulled one line at a time and trimmed it so that there was no whitespace on the edges.
 If the string was empty, blanks were increased. If the first two characters were "//" comments were increased.
-If "/**" was read, it did not update lines of code, blanks, or comments until it hit "**/" Otherwise, it would increase lines of code.
+If "/\**" was read, it did not update lines of code, blanks, or comments until it hit "\**/" Otherwise, it would increase lines of code.
 
 | Project | File Name | Lines of Code | Blanks | Comments |
 | Project1 | Driver.java | 27 | 7 | 4 |
