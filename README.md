@@ -6,6 +6,7 @@ If the string was empty, blanks were increased. If the first two characters were
 If "/\*\*" was read, it did not update lines of code, blanks, or comments until it hit "\*\*/" Otherwise, it would increase lines of code.
 
 | Project | File Name | Lines of Code | Blanks | Comments |
+| -------- | -------- | --------- | --------- | --------- |
 | Project1 | Driver.java | 27 | 7 | 4 |
 | Project1 | GeneralValue.java | 58 | 25 | 9 |
 | Project1 | Point3D.java | 47 | 13 | 7 |
